@@ -296,11 +296,11 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string>_catapultArm</string>
+				<string></string>
 				<key>displayName</key>
 				<string>catapultarm</string>
 				<key>memberVarAssignmentName</key>
-				<string></string>
+				<string>_catapultArm</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>properties</key>
@@ -376,8 +376,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
