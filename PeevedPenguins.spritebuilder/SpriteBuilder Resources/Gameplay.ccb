@@ -273,9 +273,11 @@
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
-					<real>100</real>
+					<real>500</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -1223,7 +1225,7 @@
 								<key>customClass</key>
 								<string></string>
 								<key>displayName</key>
-								<string>CCNode</string>
+								<string>_mouseJointNode</string>
 								<key>memberVarAssignmentName</key>
 								<string>_mouseJointNode</string>
 								<key>memberVarAssignmentType</key>
@@ -1324,8 +1326,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
