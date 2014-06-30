@@ -9,13 +9,13 @@
 #import "Gameplay.h"
 
 @implementation Gameplay {
-    CCPhysicsNode *_physicsNode;
-    CCNode        *_catapultArm;
-    CCNode        *_levelNode;
-    CCNode        *_contentNode;
-    CCNode        *_pullbackNode;
-    CCNode        *_mouseJointNode;
-    CCPhysicsNode *_mouseJoint;
+    CCPhysicsNode  *_physicsNode;
+    CCNode         *_catapultArm;
+    CCNode         *_levelNode;
+    CCNode         *_contentNode;
+    CCNode         *_pullbackNode;
+    CCNode         *_mouseJointNode;
+    CCPhysicsJoint *_mouseJoint;
 }
 
 // is called when CCB file has completed loading
