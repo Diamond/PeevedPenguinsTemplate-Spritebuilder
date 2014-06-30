@@ -211,7 +211,7 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>1.6427748050773516e-11</real>
+						<real>1.1368683772161603e-13</real>
 						<real>14</real>
 					</array>
 				</dict>
@@ -276,8 +276,6 @@
 					<real>500</real>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -413,7 +411,7 @@
 									<key>allowsRotation</key>
 									<true/>
 									<key>bodyShape</key>
-									<integer>1</integer>
+									<integer>0</integer>
 									<key>collisionCategories</key>
 									<array/>
 									<key>collisionMask</key>
@@ -425,7 +423,7 @@
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
-									<false/>
+									<true/>
 									<key>elasticity</key>
 									<real>0.30000001192092896</real>
 									<key>friction</key>
@@ -436,9 +434,40 @@
 											<real>0.0</real>
 											<real>0.0</real>
 										</array>
+										<array>
+											<real>0.0</real>
+											<real>32</real>
+										</array>
+										<array>
+											<real>32</real>
+											<real>32</real>
+										</array>
+										<array>
+											<real>32</real>
+											<real>0.0</real>
+										</array>
 									</array>
 									<key>polygons</key>
-									<array/>
+									<array>
+										<array>
+											<array>
+												<real>32</real>
+												<real>0.0</real>
+											</array>
+											<array>
+												<real>32</real>
+												<real>32</real>
+											</array>
+											<array>
+												<real>0.0</real>
+												<real>32</real>
+											</array>
+											<array>
+												<real>0.0</real>
+												<real>0.0</real>
+											</array>
+										</array>
+									</array>
 								</dict>
 								<key>properties</key>
 								<array>
@@ -1326,6 +1355,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
