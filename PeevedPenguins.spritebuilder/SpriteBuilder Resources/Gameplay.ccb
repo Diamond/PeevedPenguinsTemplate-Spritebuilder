@@ -205,7 +205,7 @@
 					<key>type</key>
 					<string>NodeReference</string>
 					<key>value</key>
-					<integer>5</integer>
+					<integer>4</integer>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -213,7 +213,7 @@
 					<key>type</key>
 					<string>NodeReference</string>
 					<key>value</key>
-					<integer>4</integer>
+					<integer>5</integer>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -230,8 +230,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>7.1774687767028809</real>
-						<real>-4.526576042175293</real>
+						<real>81.996299743652344</real>
+						<real>64.654594421386719</real>
 					</array>
 				</dict>
 				<dict>
@@ -276,6 +276,8 @@
 					</array>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -1238,8 +1240,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
