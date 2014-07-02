@@ -256,7 +256,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>219.8057861328125</real>
+											<real>237.806884765625</real>
 											<real>197.68986511230469</real>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -426,7 +426,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>231.48695373535156</real>
+											<real>249.48805236816406</real>
 											<real>86.008697509765625</real>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -792,6 +792,40 @@
 								<string>_pullbackNode</string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
+								<key>physicsBody</key>
+								<dict>
+									<key>affectedByGravity</key>
+									<true/>
+									<key>allowsRotation</key>
+									<true/>
+									<key>bodyShape</key>
+									<integer>1</integer>
+									<key>collisionCategories</key>
+									<array/>
+									<key>collisionMask</key>
+									<array/>
+									<key>collisionType</key>
+									<string></string>
+									<key>cornerRadius</key>
+									<real>0.0</real>
+									<key>density</key>
+									<real>1</real>
+									<key>dynamic</key>
+									<false/>
+									<key>elasticity</key>
+									<real>0.30000001192092896</real>
+									<key>friction</key>
+									<real>0.30000001192092896</real>
+									<key>points</key>
+									<array>
+										<array>
+											<real>0.0</real>
+											<real>0.0</real>
+										</array>
+									</array>
+									<key>polygons</key>
+									<array/>
+								</dict>
 								<key>properties</key>
 								<array>
 									<dict>
@@ -809,8 +843,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>207.0924072265625</real>
-											<real>305.82559204101562</real>
+											<real>233</real>
+											<real>285</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
