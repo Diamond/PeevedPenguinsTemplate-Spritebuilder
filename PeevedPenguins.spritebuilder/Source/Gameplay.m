@@ -7,6 +7,7 @@
 //
 
 #import "Gameplay.h"
+#import "CCPhysics+ObjectiveChipmunk.h"
 
 @implementation Gameplay {
     CCPhysicsNode  *_physicsNode;
@@ -31,6 +32,8 @@
     //_physicsNode.debugDraw = YES;
     _pullbackNode.physicsBody.collisionMask = @[];
     _mouseJointNode.physicsBody.collisionMask = @[];
+    
+    _physicsNode.collisionDelegate = self;
 }
 
 // called on every touch in this scene
@@ -111,6 +114,22 @@
 -(void)touchCancelled:(UITouch *)touch withEvent:(UIEvent *)event
 {
     [self releaseCatapult];
+}
+
+-(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
+{
+    float energy = [pair totalKineticEnergy];
+    
+    if (energy > 5000.0f) {
+        [[_physicsNode space] addPostStepBlock:^{
+            [self sealRemoved:nodeA];
+        }key:nodeA];
+    }
+}
+
+-(void)sealRemoved:(CCNode *)seal
+{
+    [seal removeFromParent];
 }
 
 @end
